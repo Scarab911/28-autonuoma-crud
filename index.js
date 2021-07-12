@@ -37,8 +37,6 @@ cityBird.carPark();
 
 cityBird.carRepair(1);
 
-console.log(cityBird);
-
 cityBird.intro();
 // Hi, we are CityBird and we have 3 cars available.
 
