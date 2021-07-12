@@ -40,23 +40,9 @@ class CarRental {
 
         this.list[index].working = false;
 
-
-        // const updatedCarList = []
-
-        // for (let i = 0; i < this.list.length; i++) {
-        //     const car = this.list[i];
-        //     if (index === i) {
-        //         this.carsUnderRepair.push(car)
-        //     } else {
-        //         updatedCarList.push(car)
-        //     }
-        // }
-        // this.list = updatedCarList;
     };
 
     carRepair(index) {
-        // const addCar = [...this.carsUnderRepair, ...this.list];
-        // this.list = addCar;
 
         this.list[index].working = true;
     };
